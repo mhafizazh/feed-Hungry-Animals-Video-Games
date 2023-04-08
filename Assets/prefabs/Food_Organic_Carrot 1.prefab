@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 416446045224629355}
   - component: {fileID: 416446045223582673}
   - component: {fileID: 416446045719080469}
+  - component: {fileID: 5339571839495230989}
+  - component: {fileID: -2166766796599516107}
   m_Layer: 0
-  m_Name: Food_Organic_Carrot
+  m_Name: Food_Organic_Carrot 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 416446045221549459}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.3, y: 0, z: 4}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,3 +99,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
+--- !u!114 &5339571839495230989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416446045221549459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cc5bcdf72644849b6417a1450f2d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2166766796599516107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 416446045221549459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87cc5bcdf72644849b6417a1450f2d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
